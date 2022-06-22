@@ -45,12 +45,13 @@ div.transbox {
   opacity: 0.6;
   width: 496px;
   position: absolute;
-  bottom: 10rem;
+  top: 10rem;
   left: 0px;
+  height: 80px;
 }
 
 div.transbox p {
-  margin: 3%;
+  margin: 4%;
   font-weight: bold;
   color: white;
   text-align: center;
