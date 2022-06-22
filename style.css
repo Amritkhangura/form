@@ -1,3 +1,58 @@
 body {
   margin: 0px;
+  display: flex;
+  background-color:#e0ebeb;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.form-details{
+margin-top: 2rem;
+background-color: #5dacbd;
+display: flex;
+padding: 10px;
+justify-content: center;
+align-items: center;
+box-shadow: 10px 8px 8px 10px #888888;
+}
+
+input{
+  width: 100%;
+  padding:12px 20px;
+  margin:8px 0;
+  /* box-sizing: border-box; */
+}
+
+.main-content > .para {
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+textarea{
+  width: 100%;
+  padding: 12px 20px;
+  /* box-sizing: border-box; */
+  resize: none;
+}
+
+div.transbox {
+  background-color: black;
+  border: 1px solid black;
+  opacity: 0.6;
+  width: 496px;
+  position: absolute;
+  bottom: 10rem;
+  left: 0px;
+}
+
+div.transbox p {
+  margin: 3%;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-size: 30px;
 }
