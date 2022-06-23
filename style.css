@@ -8,8 +8,6 @@ body {
 .main-content {
   display: flex;
   flex-direction: column;
-
-
 }
 
 .form-details{
